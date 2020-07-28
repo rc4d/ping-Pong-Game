@@ -1,4 +1,4 @@
-//we are making some changes
+//some changes
 window.requestAnimFrame = (function(){
 	return  window.requestAnimationFrame       || 
 		window.webkitRequestAnimationFrame || 
@@ -55,7 +55,7 @@ canvas.height = H;
 // Function to paint canvas
 
 function MainScreen_canvas() {
-	ctx.fillStyle = " #009FFD";
+	ctx.fillStyle = " #e08711";
 	ctx.fillRect(0, 0, W, H);
 }
 
@@ -130,7 +130,7 @@ restartBtn = {
 		ctx.textAlign = "center";
 		ctx.textBaseline = "middle";
 		ctx.fillStlye = "white";
-		ctx.fillText("Play Again", W/2, H/2 - 25 );
+		ctx.fillText("Restart  ", W/2, H/2 - 25 );
 		
 	}
 };
